@@ -9,7 +9,7 @@ const RSVPForm = () => {
 
   return (
     <div className="RSVPForm">
-      <button className='confirm_button' onClick={handleShow}>
+      <button className='confirm_button' onClick={handleShow} style={{color: 'black'}}>
         Подтвердить присутствие
       </button>
 
