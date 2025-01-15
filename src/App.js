@@ -7,6 +7,7 @@ import CountdownTimer from './components/CountdownTimer';
 import Text from './components/Text';
 import Timing from './components/Timing';
 import Map from './components/Map';
+import RSVPForm from './components/RSVPForm';
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -27,6 +28,7 @@ function App() {
       <Photos />
       <CountdownTimer />
       <Text />
+      <RSVPForm />
       <Timing />
       <Map />
     </div>

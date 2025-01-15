@@ -244,3 +244,26 @@
   margin: 20px auto 15px auto;
   display: block;
 }
+
+.confirm_button {
+  max-width: 300px;
+  max-height: 50px;
+  width: 100vw;
+  height: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3vw auto;
+
+  font-size: clamp(20px, 6vw, 27px);
+  background-color: #FBE0E5;
+  border: 3px solid #feced7;
+  border-radius: 25px;
+}
+
+.RSPVForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
