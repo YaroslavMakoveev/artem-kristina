@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/artem-kristina/static/css/main.f8a58c1c.css",
-    "main.js": "/artem-kristina/static/js/main.655e579a.js",
+    "main.css": "/artem-kristina/static/css/main.9af49c63.css",
+    "main.js": "/artem-kristina/static/js/main.f655492a.js",
     "static/js/488.b1d331d3.chunk.js": "/artem-kristina/static/js/488.b1d331d3.chunk.js",
-    "static/media/timing.svg": "/artem-kristina/static/media/timing.46c8fed53f0be4862ae83d4bd2631617.svg",
-    "static/media/flowersNAV.svg": "/artem-kristina/static/media/flowersNAV.bb7bd299f0d5f41b094837d13c400a23.svg",
-    "static/media/date.svg": "/artem-kristina/static/media/date.05fb7e2bda18b42f510b9645d94f9309.svg",
+    "static/media/timing.svg": "/artem-kristina/static/media/timing.c8e0443c8be8d01de4b06cd9a07185ed.svg",
+    "static/media/date.svg": "/artem-kristina/static/media/date.41974e6310223de1c606519915c2f4b6.svg",
+    "static/media/flowersNAV.svg": "/artem-kristina/static/media/flowersNAV.849f8745b6c3210dcd8ee0668c1a9b15.svg",
     "static/media/photos.png": "/artem-kristina/static/media/photos.67ae320c2d4eba7c9151.png",
     "index.html": "/artem-kristina/index.html",
-    "main.f8a58c1c.css.map": "/artem-kristina/static/css/main.f8a58c1c.css.map",
-    "main.655e579a.js.map": "/artem-kristina/static/js/main.655e579a.js.map",
+    "main.9af49c63.css.map": "/artem-kristina/static/css/main.9af49c63.css.map",
+    "main.f655492a.js.map": "/artem-kristina/static/js/main.f655492a.js.map",
     "488.b1d331d3.chunk.js.map": "/artem-kristina/static/js/488.b1d331d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8a58c1c.css",
-    "static/js/main.655e579a.js"
+    "static/css/main.9af49c63.css",
+    "static/js/main.f655492a.js"
   ]
 }
