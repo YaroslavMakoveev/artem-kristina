@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/artem-kristina/static/css/main.9af49c63.css",
+    "main.css": "/artem-kristina/static/css/main.c4268788.css",
     "main.js": "/artem-kristina/static/js/main.f655492a.js",
     "static/js/488.b1d331d3.chunk.js": "/artem-kristina/static/js/488.b1d331d3.chunk.js",
     "static/media/timing.svg": "/artem-kristina/static/media/timing.c8e0443c8be8d01de4b06cd9a07185ed.svg",
@@ -8,12 +8,12 @@
     "static/media/flowersNAV.svg": "/artem-kristina/static/media/flowersNAV.849f8745b6c3210dcd8ee0668c1a9b15.svg",
     "static/media/photos.png": "/artem-kristina/static/media/photos.67ae320c2d4eba7c9151.png",
     "index.html": "/artem-kristina/index.html",
-    "main.9af49c63.css.map": "/artem-kristina/static/css/main.9af49c63.css.map",
+    "main.c4268788.css.map": "/artem-kristina/static/css/main.c4268788.css.map",
     "main.f655492a.js.map": "/artem-kristina/static/js/main.f655492a.js.map",
     "488.b1d331d3.chunk.js.map": "/artem-kristina/static/js/488.b1d331d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9af49c63.css",
+    "static/css/main.c4268788.css",
     "static/js/main.f655492a.js"
   ]
 }
