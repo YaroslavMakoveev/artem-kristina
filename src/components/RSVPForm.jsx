@@ -1,19 +1,29 @@
 import React, { useState } from 'react';
 import { Modal } from 'react-bootstrap';
+import { useInView } from 'react-intersection-observer';
 
 const RSVPForm = () => {
   const [show, setShow] = useState(false);
+  const [ref, inView] = useInView({
+    triggerOnce: true, // Анимация будет выполнена только один раз
+    threshold: 0.8 // Анимация начнется, когда элемент будет виден на 40%
+  });
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
   return (
     <div className="RSVPForm">
-      <button className='confirm_button' onClick={handleShow} style={{color: 'black'}}>
+      <button
+        className={`confirm_button ${inView ? 'animate' : ''}`}
+        onClick={handleShow}
+        style={{ color: 'black' }}
+        ref={ref}
+      >
         Подтвердить присутствие
       </button>
 
-      <Modal show={show} onHide={handleClose} style={{marginTop: '15vw'}}>
+      <Modal show={show} onHide={handleClose} style={{ marginTop: '15vw' }}>
         <Modal.Header closeButton>
           <Modal.Title>Подтверждение присутствия</Modal.Title>
         </Modal.Header>

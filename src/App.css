@@ -258,9 +258,18 @@
 
   font-size: clamp(20px, 6vw, 27px);
   background-color: #FBE0E5;
-  border: 3px solid #feced7;
+  border: 3px solid #fad7de;
   border-radius: 25px;
   color: #000;
+}
+
+.confirm_button {
+  opacity: 0;
+  transition: opacity 2s ease-out;
+}
+
+.confirm_button.animate {
+  opacity: 1;
 }
 
 .RSPVForm {
